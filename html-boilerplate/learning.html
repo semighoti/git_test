@@ -5,22 +5,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    .subsection.header {
-      color: red;
-      font-size: 36px;
-      font-family: "times new roman";
-      text-align: center;
-    }
-    .subsection#preview {
-      color: blue;
-    }
+#parent {
+  color: red;
+}
+
+.child {
+  color: blue;
+}
   </style>
 </head>
 <body>
 
-  <div>
-    <div class="subsection header">Latest Posts</div>
-    <p class="subsection" id="preview">This is where a preview for a post might go.</p>
+  <div id="parent">
+    <div class="child">sample test</div>
   </div>
 
 </body>
